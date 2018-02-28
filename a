@@ -1,0 +1,44 @@
+[ENABLE]
+aobscan(chams, CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F)
+label(_chams)
+registersymbol(_chams)
+ 
+chams:
+_chams:
+db CD CC 4C 3F B4 C8 46 3F 00 00 C8 42
+ 
+[DISABLE]
+_chams:
+db CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F
+ 
+unregistersymbol(_chams)
+
+[ENABLE]
+aobscan(chams, CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F)
+label(_chams)
+registersymbol(_chams)
+ 
+chams:
+_chams:
+db CD CC 4C 3F 00 00 C8 42
+ 
+[DISABLE]
+_chams:
+db CD CC 4C 3F B4 C8 46 3F
+ 
+unregistersymbol(_chams)
+
+[ENABLE]
+aobscan(chams, CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CD CC 4C 3F B4 C8 46 3F B1 BF 3C 3F 00 00 80 3F)
+label(_chams)
+registersymbol(_chams)
+ 
+chams:
+_chams:
+db 00 00 C8 42
+ 
+[DISABLE]
+_chams:
+db CD CC 4C 3F
+ 
+unregistersymbol(_chams)
